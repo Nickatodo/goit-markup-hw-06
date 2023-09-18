@@ -68,6 +68,86 @@
                   <use href="./images/symbol-defs.svg#icon-cerrar"></use>
                 </svg>
               </button>
+              <p class="titulo-form">
+                Deje sus datos, nos contactaremos con usted
+              </p>
+              <form class="form">
+                <div class="form-campo">
+                  <label class="form-label" for="nombre">Nombre</label>
+                  <div class="form-input-icon">
+                    <input
+                      class="form-input"
+                      type="text"
+                      id="nombre"
+                      name="nombre"
+                    />
+                    <svg class="form-icon" width="18px" height="18px">
+                      <use href="./images/symbol-defs.svg#icon-persona"></use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="form-campo">
+                  <label class="form-label" for="telefono">Teléfono</label>
+                  <div class="form-input-icon">
+                    <input
+                      class="form-input"
+                      type="number"
+                      id="telefono"
+                      name="telefono"
+                    />
+                    <svg class="form-icon" width="18px" height="18px">
+                      <use href="./images/symbol-defs.svg#icon-fono"></use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="form-campo">
+                  <label class="form-label" for="mail">E-mail</label>
+                  <div class="form-input-icon">
+                    <input
+                      class="form-input"
+                      type="mail"
+                      id="mail"
+                      name="mail"
+                    />
+                    <svg class="form-icon" width="18px" height="18px">
+                      <use href="./images/symbol-defs.svg#icon-mail"></use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="form-campo">
+                  <label class="form-label" for="coment">Comentarios</label>
+                  <div class="form-input-icon">
+                    <textarea
+                      class="form-textarea"
+                      name="coment"
+                      placeholder="Introduzca el texto"
+                      name="coment"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="form-campo campo-check">
+                  <label class="check">
+                    <input
+                      hidden
+                      class="checkbox-input"
+                      type="checkbox"
+                      name="check"
+                    />
+                    <span class="checkbox">
+                      <svg class="icon-check" width="16px" height="15px">
+                        <use
+                          href="./images/symbol-defs.svg#icon-checkboxtk"
+                        ></use>
+                      </svg>
+                    </span>
+                    <span class="txt-condicion"
+                      >Estoy de acuerdo con el boletín informativo y acepto los
+                      Términos y Condiciones.</span
+                    >
+                  </label>
+                </div>
+                <button class="form-btn" type="submit">Enviar</button>
+              </form>
             </div>
           </div>
         </div>
@@ -601,6 +681,23 @@
                 </a>
               </li>
             </ul>
+          </div>
+          <div>
+            <h3 class="base_titulo">SUSCRÍBASE AL BOLETIN INFORMATIVO</h3>
+            <div class="base_suscripcion">
+              <input
+                class="suscripcion"
+                type="mail"
+                placeholder="Correo electrónico"
+                name="mail_suscripcion"
+              />
+              <button class="btn_suscripcion">
+                Suscríbase
+                <svg class="svg_suscripcion" width="24px" height="24px">
+                  <use href="./images/symbol-defs.svg#icon-sub"></use>
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
       </div>
